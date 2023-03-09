@@ -1,0 +1,92 @@
+*{
+padding: 0;    
+margin: 0;
+box-sizing: border-box;
+/* background-color: aquamarine; */
+}
+
+main{
+    
+    border: 3px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top:30vh;
+    margin-left: 40vw;
+    width: fit-content;
+}
+
+h1{
+    padding: .5em;
+    background-color: rgb(73, 40, 16);
+    color: white;
+    letter-spacing: .1em;
+    padding-bottom: 5px;
+    border-bottom-style: solid;
+    border-bottom-width: 2px;        
+    width: fit-content;
+}
+
+
+.btn{
+    display: grid;
+    grid-template-columns:  auto;
+    grid-auto-flow: row;
+    background-color: rgb(73, 40, 16) ;
+    padding: .5em;    
+}
+
+.button{    
+    padding: .2em;
+    margin: .2em;   
+    width: 4em;
+    height: 90%;
+    border: .5px solid beige;
+    border-radius: 2em;
+    background-color: rgb(26, 24, 24);
+    color: white;
+}
+
+.button:hover{
+    background-color: rgb(2, 2, 2);
+}
+.color:hover{
+    background-color:rgb(241, 238, 42) ;
+}
+
+.row{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.input{
+    margin-top: 0;
+    height: 3em;
+    border: .5px solid black;    
+}
+
+.color{
+    background-color: rgb(184, 181, 17);
+}
+
+/* .span{
+    grid-row: 4/ span 2;
+    grid-row-start: 4;
+    grid-row-start: 6;
+    grid-column-start: 4;
+    grid-column-end: 5;
+   
+} */
+
+
+/* .container{
+    display: grid;
+
+} */
+
+
+
+
+
